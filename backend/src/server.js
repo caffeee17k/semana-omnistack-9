@@ -9,7 +9,7 @@ mongoose.connect('mongodb+srv://caffeee:caffeee17k@cluster0-uj485.mongodb.net/te
     useUnifiedTopology: true,
 })
 
-//req.query = acessar query params (oara filtros)
+//req.query = acessar query params (para filtros)
 // req.params = acessar route params (para edição e delete)
 //req.body = acessar corpo da requisição (para criação, edição)
 
