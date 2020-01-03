@@ -7,8 +7,8 @@ const SpotController = require('./controllers/SpotController');
 const DashboardController = require('./controllers/DashboardController');
 const BookingController = require('./controllers/BookingController');
 
-
 const routes = express.Router();
+//Utilizando o multer para utilização
 const upload = multer(uploadConfig);
 
 routes.post('/sessions', SessionController.store);
